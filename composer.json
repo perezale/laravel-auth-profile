@@ -1,5 +1,5 @@
 {
-    "name": "mressex/laravel-auth-profile",
+    "name": "perezale/laravel-auth-profile",
     "description": "Building off of the default Laravel Authentication. View and Edit User Profiles",
     "type": "library",
     "require": {
