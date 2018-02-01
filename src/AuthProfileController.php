@@ -64,9 +64,9 @@ class AuthProfileController extends Controller
             $user->password = bcrypt($request["password"]);
         }
 
-        $user->save(); 
+        $user->save();
 
-        Session::flash('message', "Profile Successfully Updated!");
+        Session::flash('message', __('laravelauthprofile::messages.updated'));
         return redirect()->back();
     }
 }
